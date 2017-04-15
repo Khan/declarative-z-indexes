@@ -1,0 +1,3 @@
+[submodule "khan-linter"]
+	path = khan-linter
+	url = https://github.com/khan/khan-linter.git
