@@ -2,8 +2,9 @@
   "name": "declarative-z-indexes",
   "version": "1.0.0",
   "description": "Prevent z-index conflicts by generating them from declarative constraints",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "babel -d lib/ index.js",
     "lint": "flow && ./khan-linter/bin/ka-lint",
     "test": "jest"
   },
